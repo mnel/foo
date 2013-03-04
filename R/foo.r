@@ -4,7 +4,7 @@
 #' @import data.table
 #' @export
 foo <- function(x){
-  x[, {'a'} := 1]
+  x[, a := 1]
 }
 #' foo with call
 #'
