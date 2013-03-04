@@ -1,0 +1,12 @@
+Package: foo
+Title: A package with data.table data
+Description: A package with data.table data
+Version: 1.0
+Author: Michael Nelson <michael.nelson@sydney.edu.au>
+Maintainer: Michael Nelson <michael.nelson@sydney.edu.au>
+License: GPL2
+LazyData: no
+Depends:
+    data.table
+Collate:
+    'foo.r'
